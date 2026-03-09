@@ -7,6 +7,14 @@ Link to the paper:
 https://people.csail.mit.edu/sumner/research/deftransfer/Sumner2004DTF.pdf
 
 
+ #--- How to use ---#
+ check the requirements are met
+ Download the files and put them in the folder of your choice,
+ copy maya_launch.py in the maya script editor, change scriptPath
+ Load the meshes, choose markers between source and target, and then you can transfer the deformation
+ #--- --- ---#
+
+
 The idea of the paper is to transfer the deformation of a source mesh to a different target mesh, even if they don't share the same topology or number of vertices, as long as they share a semantic correspondence.
 This is has a lot of very useful applications, for exemple for facial rigging, to transfer expressions between characters instead of rebuilding each expression from scratch, or to pose non-rigged meshes.
 
