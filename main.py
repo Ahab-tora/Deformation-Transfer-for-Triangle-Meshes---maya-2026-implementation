@@ -12,9 +12,10 @@ from PySide6 import QtCore,QtWidgets
 from pathlib import Path
 from functools import partial
 
-#from test2 import *
 from . import core
 importlib.reload(core)
+
+#--- ---#
 
 def maya_main_window():
 	main_window_ptr=OpenMayaUI.MQtUtil.mainWindow()
